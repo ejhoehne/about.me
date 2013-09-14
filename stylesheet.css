@@ -1,0 +1,130 @@
+html {
+	height: 100%;
+}
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-style: Helvetica, Arial, sans-serif; 
+	font-size: 14px;
+
+}
+a hover {
+	font-style: none
+
+}
+/* Navigation top bar */
+.top {
+	background-color:#111414 ;
+	height: 40px;
+}
+/* about.me icon */
+#about-me-main {
+	background: #242626;
+	margin-left: 100px;
+	border-style: inset;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	height: 40px;
+	cursor: pointer;
+	font-size: 1em;
+
+}
+#about {
+	color:whitesmoke;
+
+}
+#me {
+	color: #B28F00;
+}
+/* Claim your name! icon */
+#claim-your-name {
+	margin-left: 700px;
+	background-color:aqua ;
+	border-style: outset;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	height: 40px;
+	cursor: pointer;
+	font-size: 1em;
+	color: whitesmoke;
+}
+/* Log In icon */
+#log-in {
+	background-color: ;
+	border-style: outset;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	height: 40px;
+	font-size:1em ;
+	cursor: pointer;
+	color: whitesmoke;
+
+}
+
+/* Background picture */
+
+body img {
+	position: relative;
+	left: 0px; 
+	width: 100%;
+	height: auto;
+}
+
+/* Bio */
+.bio {
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	position: absolute;
+	left: 700px;
+	right: 0;
+	top: 0;
+	z-index: 1;
+	float: left;
+	width: 500px;
+	padding-top: 50px;
+
+}
+h1 {
+	font-weight: bold; 
+	font-size: 300%;
+	font-family: 'Clicker Script', cursive;
+	text-align: center;
+}
+h2 {
+font-family: 'Patrick Hand', cursive;
+text-align: center;
+}
+
+/* Social media icons */
+li {
+list-style: none; 
+display: inline;
+font-size: 400%;
+font-color:whitesmoke ;
+text-align: center;
+}
+
+a:hover{
+	text-decoration: none;
+	color: whitesmoke;
+
+
+}
+a {
+	text-decoration: none;
+	color: whitesmoke;
+	text-align: center;
+}
+
+
+
+
+
+
