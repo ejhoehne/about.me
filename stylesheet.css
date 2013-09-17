@@ -1,6 +1,37 @@
 html {
 	height: 100%;
 }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+	body {
+		background-color: black;
+		color: gray;
+
+	}
+
+	img.bg { 
+    left: 50%;
+    margin-left: -512px; 
+
+    }  /* 50% */
+  
+ 	section.bio {
+ 		float: none;
+ 		width: 100%;
+
+    }
+
+    ul #social-media-icons {
+    	float: none;
+    	width: auto;
+    }
+}
+/* Styles */
 body {
 	width: 100%;
 	padding: 0;
