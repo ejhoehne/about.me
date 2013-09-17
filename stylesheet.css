@@ -40,7 +40,7 @@ a:hover {
 /* Claim your name! icon */
 #claim-your-name {
 	margin-left: 700px;
-	background-color:aqua ;
+	background-color:#19A3D1;
 	border-style: outset;
 	border-left: 1px solid transparent;
 	border-right: 1px solid transparent;
@@ -51,6 +51,8 @@ a:hover {
 	font-size: 1em;
 	color: whitesmoke;
 	padding: 0 0;
+	font-family: 'Istok Web', sans-serif;
+	width: auto;
 }
 /* Log In icon */
 #log-in {
@@ -64,6 +66,8 @@ a:hover {
 	font-size:1em ;
 	cursor: pointer;
 	color: whitesmoke;
+	font-family: 'Istok Web', sans-serif;
+	width: auto;
 
 }
 
