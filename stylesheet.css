@@ -1,37 +1,9 @@
 html {
 	height: 100%;
+	background-color: black;
 }
 
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-
-	body {
-		background-color: black;
-		color: gray;
-
-	}
-
-	img.bg { 
-    left: 50%;
-    margin-left: -512px; 
-
-    }  /* 50% */
-  
- 	section.bio {
- 		float: none;
- 		width: 100%;
-
-    }
-
-    ul #social-media-icons {
-    	float: none;
-    	width: auto;
-    }
-}
-/* Styles */
 body {
 	width: 100%;
 	padding: 0;
@@ -49,6 +21,7 @@ a hover {
 	background-color:#111414 ;
 	height: 40px;
 }
+
 /* about.me icon */
 #about-me-main {
 	background: #242626;
@@ -61,14 +34,8 @@ a hover {
 	height: 40px;
 	cursor: pointer;
 	font-size: 1em;
+	width: 100px;
 
-}
-#about {
-	color:whitesmoke;
-
-}
-#me {
-	color: #B28F00;
 }
 /* Claim your name! icon */
 #claim-your-name {
@@ -83,6 +50,7 @@ a hover {
 	cursor: pointer;
 	font-size: 1em;
 	color: whitesmoke;
+	padding: 0 0;
 }
 /* Log In icon */
 #log-in {
@@ -110,8 +78,7 @@ body img {
 
 /* Bio */
 .bio {
-	color: white;
-	font-family: Helvetica, Arial, sans-serif;
+	color: whitesmoke; 
 	position: absolute;
 	left: 700px;
 	right: 0;
@@ -127,31 +94,98 @@ h1 {
 	font-size: 300%;
 	font-family: 'Clicker Script', cursive;
 	text-align: center;
+	color: #FF944D;
 }
 h2 {
-font-family: 'Patrick Hand', cursive;
-text-align: center;
+	font-family: 'Bubbler One', sans-serif;
+	text-align: center;
 }
 
 /* Social media icons */
 li {
-list-style: none; 
-display: inline;
-font-size: 400%;
-font-color:whitesmoke ;
-text-align: center;
+	list-style: none; 
+	display: inline;
+	font-size: 400%;
+	text-align: center;
+	color: #FF944D;
 }
 
 a:hover{
 	text-decoration: none;
-	color: whitesmoke;
+	color: #FF944D;
+	text-align: center;
 
 
 }
 a {
 	text-decoration: none;
-	color: whitesmoke;
+	color: #FF944D;
 	text-align: center;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media screen and (max-device-width : 480px) {
+
+	body img {
+		position: fixed;
+		left: 0px; 
+		width: 100%;
+		height: auto;
+		float: left;
+
+	}
+	.bio {
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	position: inherit; 
+	bottom: -20px;
+	float: left;
+	width: 500px;
+}
+
+	img { 
+    	left: 50%;
+    	margin-left: -512px; 
+
+    }  /* 50% */
+  
+ 	h1 {
+		font-weight: bold; 
+		font-size: 300%;
+		font-family: 'Clicker Script', cursive;
+		text-align: center;
+		float: none;
+	}
+	h2 {
+		font-family: 'Patrick Hand', cursive;
+		text-align: center;
+		float: none; 
+}
+
+/* Social media icons */
+	li {
+		list-style: none; 
+		display: inline;
+		font-size: 400%;
+		font-color:gray;
+		text-align: center;
+		background: gray;
+
+	}
+
+	a:hover{
+		text-decoration: none;
+		font-color: black;
+		background: gray;
+
+
+	}
+	a {
+		text-decoration: none;
+		font-color: black;
+		text-align: center;
+
 }
 
 
